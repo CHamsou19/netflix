@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+#series, #movie{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#serie{
+    color: white;
+    display: flex;
+    flex-direction: column  ;
+}
+#series img{
+    width: 200px;
+    height: 400px;
+}
+nav{
+    font-size: 50px;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+#movies{
+    color: white;
+    display: flex;
+    flex-direction: column
+
+}

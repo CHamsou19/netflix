@@ -14,7 +14,7 @@ var liste = [
 for (let index = 0; index < liste.length; index++) {
     console.log(liste[index]);
     if (liste[index].type === "movie") {
-        document.getElementById("movies").innerHTML +=
+        document.getElementById("movie").innerHTML +=
             `
         <div id="carte">
             <img  width="260px" src= ${liste[index].image}>
